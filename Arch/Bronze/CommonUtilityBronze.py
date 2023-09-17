@@ -8,6 +8,10 @@ def loaddata (file_name:str,env:str,file_path:str,file_format:str) ->None:
         a=a+1
     if file_format!="parquet":
         try:
+            raw_file_path = file_path+"/"+file_name
+            table_name=file_name.split(".")
+            name=table_name[0]
+            file_format=table_name[1]
             if dit[file_name]:    
                 raw_file_path = file_path+"/"+file_name
                 table_name=file_name.split(".")

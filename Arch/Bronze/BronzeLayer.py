@@ -37,8 +37,21 @@ loaddata(file_name,env,file_path,file_format)
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
 dbutils.fs.ls('/FileStore/tables/')
 
 # COMMAND ----------
 
+#dbutils.fs.put('/FileStore/tables/Incr/Circuits1.csv','/FileStore/tables/Circuits1.csv')
+dbutils.fs.rm('/FileStore/tables/Incr/Circuits1.csv',True)
+
+# COMMAND ----------
+
 dbutils.fs.ls('/FileStore/Cardamom_bronze_db/Indian_Small_Cardamom_Price_History')
+
+# COMMAND ----------
+
+
