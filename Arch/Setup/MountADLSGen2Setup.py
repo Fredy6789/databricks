@@ -15,7 +15,7 @@ key='accesskey_'+Storage_Account
 container_name = Container
 storage_account_name = Storage_Account
 #storage_access_key=dbutils.secrets.get(scope=scope,key=key)
-storage_access_key ="aFDlcJrb9inmSx6UbPBIaxwcTbq/B2n4C9qHoDI1QDZ5ggLxqMzVfOCcKQziCCZFKIUbTxGeOpsh+AStsz3XUQ=="
+#storage_access_key ="usq66TkczGLtAIZaOaSwFyut/QypGhD2rqSERyDZOBVue+bVd8+K+A9SINdRTG2a8Be6Jpv2vgC2+AStS3O6Fw=="
 mount_point_path='/mnt/'+Project+'/'
 
 
